@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us </title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        h1{
+            background-color: grey;
+            text-align: center;
+            
+        }
+        form{
+            border: 5px solid black;
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            padding: 50px;
+            font-size: large;
+            background-color: whitesmoke;
+            text-align: center;
+           
+            
+        }
+        button{
+            color: black;
+            background-color: red;
+        }
+        input,textarea{
+            width: 500px;
+          
+        }
+        input{
+            padding: 10px;
+            
+        }
+        a{
+            border: 1px solid black;
+            background-color: brown;
+            color: black;
+            
+        }
+        @media screen and (max-width: 768px) {
+        h1.form{
+                width: 150px;
+            }
+
+   label.input{
+                width: 250px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="akshay">CONTACT US </h1>
+    <form  action="./formsubmit.html">
+        <label for=""  >Enter Your Name </label><br>
+        <input type="text" name="name " placeholder="Enter Your Name " ><br><br>
+        <label for="">Enter Your Email</label><br>
+        <input type="email" name="email" placeholder="Email"> <br><br>
+        <label for="fname"> birth date:</label> <br>
+        <input type="text" id="date" name="date" placeholder="DOB"><br><br>
+        <label for="aname"> birth month: </label> <br>
+        <input type="password" id="password" name="password" placeholder="DOM"> <br> <br>
+    
+       <button type="submit"> submit</button>
+    </form>
+</body>
+</html>
